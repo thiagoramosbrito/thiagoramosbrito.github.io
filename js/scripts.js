@@ -7,8 +7,8 @@ $.ajax({
             var img = imgs[i];
             console.log(img);
             var li = "<li></li>";
-            li.css("background-image","url(https://live.staticflickr.com/"+ img.server +"/"+ img.id +"_"+ img.secret +"_z.jpg)");
             $('#imgList').append(li);
+            li.css("background-image","url(https://live.staticflickr.com/"+ img.server +"/"+ img.id +"_"+ img.secret +"_z.jpg)");
         }
 
 }});
