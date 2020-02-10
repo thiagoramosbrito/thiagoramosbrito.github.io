@@ -3,9 +3,9 @@ $.ajax({
     success: function(result){
   console.log(result.photos.photo);
   var imgs = result.photos.photo;
-  console.log(imgs.lenght);
+  console.log(imgs.length);
   
-        for(i=0;i<imgs.lenght;i++){
+        for(i=0;i<imgs.length;i++){
             var img = imgs[i];
             console.log(img);
         }
